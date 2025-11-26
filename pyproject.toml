@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "asyncio>=4.0.0",
-    "flask>=3.1.2",
-    "openai>=2.7.1",
-    "requests>=2.32.5",
-    "semantic-kernel>=1.36.0",
+    "aiohttp>=3.13.2",
+    "fastmcp==2.12.5",
+    "langchain==1.0.2",
+    "langchain-mcp-adapters>=0.1.0",
+    "langchain-openai==1.0.1",
+    "python-dotenv>=1.2.1",
+    "tushare>=1.4.24",
 ]

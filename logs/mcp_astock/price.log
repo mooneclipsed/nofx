@@ -1,0 +1,618 @@
+
+
+╭────────────────────────────────────────────────────────────────────────────╮
+│                                                                            │
+│        _ __ ___  _____           __  __  _____________    ____    ____     │
+│       _ __ ___ .'____/___ ______/ /_/  |/  / ____/ __ \  |___ \  / __ \    │
+│      _ __ ___ / /_  / __ `/ ___/ __/ /|_/ / /   / /_/ /  ___/ / / / / /    │
+│     _ __ ___ / __/ / /_/ (__  ) /_/ /  / / /___/ ____/  /  __/_/ /_/ /     │
+│    _ __ ___ /_/    \____/____/\__/_/  /_/\____/_/      /_____(*)____/      │
+│                                                                            │
+│                                                                            │
+│                                FastMCP  2.0                                │
+│                                                                            │
+│                                                                            │
+│               🖥️  Server name:     LocalPrices                              │
+│               📦 Transport:       Streamable-HTTP                          │
+│               🔗 Server URL:      http://127.0.0.1:8003/mcp                │
+│                                                                            │
+│               🏎️  FastMCP version: 2.12.5                                   │
+│               🤝 MCP SDK version: 1.16.0                                   │
+│                                                                            │
+│               📚 Docs:            https://gofastmcp.com                    │
+│               🚀 Deploy:          https://fastmcp.cloud                    │
+│                                                                            │
+╰────────────────────────────────────────────────────────────────────────────╯
+
+
+[11/26/25 18:28:46] INFO     Starting MCP server 'LocalPrices'    server.py:1579
+                             with transport 'streamable-http' on                
+                             http://127.0.0.1:8003/mcp                          
+INFO:     Started server process [8858]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38622 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38634 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38626 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38638 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38654 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53446 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53458 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53468 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53460 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:53480 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53496 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47604 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47598 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47616 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47624 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45572 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45582 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45586 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45600 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45616 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45626 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45634 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45646 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45660 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45670 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45684 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45698 - "POST /mcp HTTP/1.1" 200 OK
+[11/26/25 18:34:06] ERROR    Error calling tool              tool_manager.py:233
+                             'get_price_local'                                  
+                             ╭─ Traceback (most recent cal─╮                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool_manager.p │                    
+                             │ y:224 in call_tool          │                    
+                             │                             │                    
+                             │   221 │   │   │   │   raise │                    
+                             │   222 │   │   │             │                    
+                             │   223 │   │   │   try:      │                    
+                             │ ❱ 224 │   │   │   │   retur │                    
+                             │   225 │   │   │             │                    
+                             │   226 │   │   │   # raise T │                    
+                             │   227 │   │   │   except To │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool.py:314 in │                    
+                             │ run                         │                    
+                             │                             │                    
+                             │   311 │   │   │   arguments │                    
+                             │   312 │   │                 │                    
+                             │   313 │   │   type_adapter  │                    
+                             │ ❱ 314 │   │   result = type │                    
+                             │   315 │   │                 │                    
+                             │   316 │   │   if inspect.is │                    
+                             │   317 │   │   │   result =  │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/p │                    
+                             │ ydantic/type_adapter.py:421 │                    
+                             │  in validate_python         │                    
+                             │                             │                    
+                             │   418 │   │   │   │   code= │                    
+                             │   419 │   │   │   )         │                    
+                             │   420 │   │                 │                    
+                             │ ❱ 421 │   │   return self.v │                    
+                             │   422 │   │   │   object,   │                    
+                             │   423 │   │   │   strict=st │                    
+                             │   424 │   │   │   from_attr │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:87  │                    
+                             │ in get_price_local          │                    
+                             │                             │                    
+                             │    84 │   │   result =  get │                    
+                             │    85 │   else:             │                    
+                             │    86 │   │   # Date only,  │                    
+                             │ ❱  87 │   │   result = get_ │                    
+                             │    88 │                     │                    
+                             │    89 │   # log_file = get_ │                    
+                             │    90 │   # signature = get │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:140 │                    
+                             │  in get_price_local_daily   │                    
+                             │                             │                    
+                             │   137 │   │   │   │   │   " │                    
+                             │   138 │   │   │   │   │   " │                    
+                             │   139 │   │   │   │   }     │                    
+                             │ ❱ 140 │   │   │   if date = │                    
+                             │   141 │   │   │   │   retur │                    
+                             │   142 │   │   │   │   │   " │                    
+                             │   143 │   │   │   │   │   " │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/tools/a_s │                    
+                             │ tock_data_tools.py:56 in    │                    
+                             │ get_config_value            │                    
+                             │                             │                    
+                             │    53                       │                    
+                             │    54 def get_config_value( │                    
+                             │    55 │   """导入配置函数（ │                    
+                             │ ❱  56 │   from a_stock_conf │                    
+                             │    57 │   return _get_confi │                    
+                             │    58                       │                    
+                             │    59                       │                    
+                             ╰─────────────────────────────╯                    
+                             ModuleNotFoundError: No module                     
+                             named 'a_stock_config'                             
+INFO:     127.0.0.1:45714 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45730 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45748 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45738 - "POST /mcp HTTP/1.1" 200 OK
+SSE response error
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py", line 484, in _handle_post_request
+  |     async with anyio.create_task_group() as tg:
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py", line 489, in _handle_post_request
+    |     await writer.send(session_message)
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 243, in send
+    |     self.send_nowait(item)
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 212, in send_nowait
+    |     raise ClosedResourceError
+    | anyio.ClosedResourceError
+    +------------------------------------
+INFO:     127.0.0.1:45758 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45770 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45780 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45788 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45802 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45818 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45820 - "POST /mcp HTTP/1.1" 200 OK
+[11/26/25 18:34:08] ERROR    Error calling tool              tool_manager.py:233
+                             'get_price_local'                                  
+                             ╭─ Traceback (most recent cal─╮                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool_manager.p │                    
+                             │ y:224 in call_tool          │                    
+                             │                             │                    
+                             │   221 │   │   │   │   raise │                    
+                             │   222 │   │   │             │                    
+                             │   223 │   │   │   try:      │                    
+                             │ ❱ 224 │   │   │   │   retur │                    
+                             │   225 │   │   │             │                    
+                             │   226 │   │   │   # raise T │                    
+                             │   227 │   │   │   except To │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool.py:314 in │                    
+                             │ run                         │                    
+                             │                             │                    
+                             │   311 │   │   │   arguments │                    
+                             │   312 │   │                 │                    
+                             │   313 │   │   type_adapter  │                    
+                             │ ❱ 314 │   │   result = type │                    
+                             │   315 │   │                 │                    
+                             │   316 │   │   if inspect.is │                    
+                             │   317 │   │   │   result =  │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/p │                    
+                             │ ydantic/type_adapter.py:421 │                    
+                             │  in validate_python         │                    
+                             │                             │                    
+                             │   418 │   │   │   │   code= │                    
+                             │   419 │   │   │   )         │                    
+                             │   420 │   │                 │                    
+                             │ ❱ 421 │   │   return self.v │                    
+                             │   422 │   │   │   object,   │                    
+                             │   423 │   │   │   strict=st │                    
+                             │   424 │   │   │   from_attr │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:87  │                    
+                             │ in get_price_local          │                    
+                             │                             │                    
+                             │    84 │   │   result =  get │                    
+                             │    85 │   else:             │                    
+                             │    86 │   │   # Date only,  │                    
+                             │ ❱  87 │   │   result = get_ │                    
+                             │    88 │                     │                    
+                             │    89 │   # log_file = get_ │                    
+                             │    90 │   # signature = get │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:140 │                    
+                             │  in get_price_local_daily   │                    
+                             │                             │                    
+                             │   137 │   │   │   │   │   " │                    
+                             │   138 │   │   │   │   │   " │                    
+                             │   139 │   │   │   │   }     │                    
+                             │ ❱ 140 │   │   │   if date = │                    
+                             │   141 │   │   │   │   retur │                    
+                             │   142 │   │   │   │   │   " │                    
+                             │   143 │   │   │   │   │   " │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/tools/a_s │                    
+                             │ tock_data_tools.py:56 in    │                    
+                             │ get_config_value            │                    
+                             │                             │                    
+                             │    53                       │                    
+                             │    54 def get_config_value( │                    
+                             │    55 │   """导入配置函数（ │                    
+                             │ ❱  56 │   from a_stock_conf │                    
+                             │    57 │   return _get_confi │                    
+                             │    58                       │                    
+                             │    59                       │                    
+                             ╰─────────────────────────────╯                    
+                             ModuleNotFoundError: No module                     
+                             named 'a_stock_config'                             
+INFO:     127.0.0.1:45822 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45832 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45836 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45850 - "DELETE /mcp HTTP/1.1" 200 OK
+Session 681bc810b60c4f9482b7c3c751c4f80a crashed: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/streamable_http_manager.py", line 241, in run_server
+  |     await self.app.run(
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 614, in run
+  |     async with AsyncExitStack() as stack:
+  |   File "/usr/lib/python3.12/contextlib.py", line 754, in __aexit__
+  |     raise exc_details[1]
+  |   File "/usr/lib/python3.12/contextlib.py", line 737, in __aexit__
+  |     cb_suppress = await cb(*exc_details)
+  |                   ^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+  |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 625, in run
+    |     async with anyio.create_task_group() as tg:
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 649, in _handle_message
+      |     await self._handle_request(message, req, session, lifespan_context, raise_exceptions)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 704, in _handle_request
+      |     await message.respond(response)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 131, in respond
+      |     await self._session._send_response(  # type: ignore[reportPrivateUsage]
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 329, in _send_response
+      |     await self._write_stream.send(session_message)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 243, in send
+      |     self.send_nowait(item)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 212, in send_nowait
+      |     raise ClosedResourceError
+      | anyio.ClosedResourceError
+      +------------------------------------
+INFO:     127.0.0.1:45862 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45876 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45884 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45880 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45898 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45908 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45912 - "POST /mcp HTTP/1.1" 200 OK
+[11/26/25 18:34:11] ERROR    Error calling tool              tool_manager.py:233
+                             'get_price_local'                                  
+                             ╭─ Traceback (most recent cal─╮                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool_manager.p │                    
+                             │ y:224 in call_tool          │                    
+                             │                             │                    
+                             │   221 │   │   │   │   raise │                    
+                             │   222 │   │   │             │                    
+                             │   223 │   │   │   try:      │                    
+                             │ ❱ 224 │   │   │   │   retur │                    
+                             │   225 │   │   │             │                    
+                             │   226 │   │   │   # raise T │                    
+                             │   227 │   │   │   except To │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/f │                    
+                             │ astmcp/tools/tool.py:314 in │                    
+                             │ run                         │                    
+                             │                             │                    
+                             │   311 │   │   │   arguments │                    
+                             │   312 │   │                 │                    
+                             │   313 │   │   type_adapter  │                    
+                             │ ❱ 314 │   │   result = type │                    
+                             │   315 │   │                 │                    
+                             │   316 │   │   if inspect.is │                    
+                             │   317 │   │   │   result =  │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/.venv/lib │                    
+                             │ /python3.12/site-packages/p │                    
+                             │ ydantic/type_adapter.py:421 │                    
+                             │  in validate_python         │                    
+                             │                             │                    
+                             │   418 │   │   │   │   code= │                    
+                             │   419 │   │   │   )         │                    
+                             │   420 │   │                 │                    
+                             │ ❱ 421 │   │   return self.v │                    
+                             │   422 │   │   │   object,   │                    
+                             │   423 │   │   │   strict=st │                    
+                             │   424 │   │   │   from_attr │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:87  │                    
+                             │ in get_price_local          │                    
+                             │                             │                    
+                             │    84 │   │   result =  get │                    
+                             │    85 │   else:             │                    
+                             │    86 │   │   # Date only,  │                    
+                             │ ❱  87 │   │   result = get_ │                    
+                             │    88 │                     │                    
+                             │    89 │   # log_file = get_ │                    
+                             │    90 │   # signature = get │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/mcp_tool/ │                    
+                             │ tool_get_price_local.py:140 │                    
+                             │  in get_price_local_daily   │                    
+                             │                             │                    
+                             │   137 │   │   │   │   │   " │                    
+                             │   138 │   │   │   │   │   " │                    
+                             │   139 │   │   │   │   }     │                    
+                             │ ❱ 140 │   │   │   if date = │                    
+                             │   141 │   │   │   │   retur │                    
+                             │   142 │   │   │   │   │   " │                    
+                             │   143 │   │   │   │   │   " │                    
+                             │                             │                    
+                             │ /home/liuyue/nofx/tools/a_s │                    
+                             │ tock_data_tools.py:56 in    │                    
+                             │ get_config_value            │                    
+                             │                             │                    
+                             │    53                       │                    
+                             │    54 def get_config_value( │                    
+                             │    55 │   """导入配置函数（ │                    
+                             │ ❱  56 │   from a_stock_conf │                    
+                             │    57 │   return _get_confi │                    
+                             │    58                       │                    
+                             │    59                       │                    
+                             ╰─────────────────────────────╯                    
+                             ModuleNotFoundError: No module                     
+                             named 'a_stock_config'                             
+INFO:     127.0.0.1:45914 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45930 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45954 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45946 - "POST /mcp HTTP/1.1" 200 OK
+Error in SSE writer
+Traceback (most recent call last):
+  File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py", line 449, in sse_writer
+    async for event_message in request_stream_reader:
+  File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/abc/_streams.py", line 41, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 93, in receive_nowait
+    raise ClosedResourceError
+anyio.ClosedResourceError
+ERROR:mcp.server.streamable_http_manager:Session 55e3933b2a424dbeb231b38bde95b181 crashed: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/streamable_http_manager.py", line 241, in run_server
+  |     await self.app.run(
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 614, in run
+  |     async with AsyncExitStack() as stack:
+  |   File "/usr/lib/python3.12/contextlib.py", line 754, in __aexit__
+  |     raise exc_details[1]
+  |   File "/usr/lib/python3.12/contextlib.py", line 737, in __aexit__
+  |     cb_suppress = await cb(*exc_details)
+  |                   ^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+  |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 625, in run
+    |     async with anyio.create_task_group() as tg:
+    |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 649, in _handle_message
+      |     await self._handle_request(message, req, session, lifespan_context, raise_exceptions)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py", line 704, in _handle_request
+      |     await message.respond(response)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 131, in respond
+      |     await self._session._send_response(  # type: ignore[reportPrivateUsage]
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/mcp/shared/session.py", line 329, in _send_response
+      |     await self._write_stream.send(session_message)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 243, in send
+      |     self.send_nowait(item)
+      |   File "/home/liuyue/nofx/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 212, in send_nowait
+      |     raise ClosedResourceError
+      | anyio.ClosedResourceError
+      +------------------------------------
+INFO:     127.0.0.1:32786 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32794 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32804 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:32820 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32832 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32840 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57156 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57164 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57168 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58426 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58438 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:58442 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58458 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58468 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48474 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48494 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48482 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48508 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48524 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48526 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48532 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48534 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48550 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48558 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48572 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48606 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48596 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48582 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48614 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48620 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48632 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48640 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48642 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48654 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48658 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48660 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48666 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48682 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48696 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48710 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48688 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48714 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48716 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48722 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48736 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48754 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48766 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48768 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48780 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48794 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48802 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48816 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48824 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48838 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48844 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48860 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48870 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48852 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48880 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48902 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48888 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48906 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48914 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48928 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48938 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48946 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48958 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48968 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48984 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48990 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48994 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58040 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58062 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58056 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:58068 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58074 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46780 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46786 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46794 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46790 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46806 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46834 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46818 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46848 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46838 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46862 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46878 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46884 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46896 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46898 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46900 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46906 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46910 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46920 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46932 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46940 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46950 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46964 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46948 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46976 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46978 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46984 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46990 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46992 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46994 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47000 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47016 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47020 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47038 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47050 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47024 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47058 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47068 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47082 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47106 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47120 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47096 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47122 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47134 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47130 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47150 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47146 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47166 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47178 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47186 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47196 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47198 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47208 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47222 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47226 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40274 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40288 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40276 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40298 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40310 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57568 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57582 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57602 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57598 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57612 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57630 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57628 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57638 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57650 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57664 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57676 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57688 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57696 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57708 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57716 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57718 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57734 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51134 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51160 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51144 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51164 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51170 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51174 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51178 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51210 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51194 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51242 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51226 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51246 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51262 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51264 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51266 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51274 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51286 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51294 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51298 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51308 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51324 - "DELETE /mcp HTTP/1.1" 200 OK

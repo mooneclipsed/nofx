@@ -1,0 +1,6 @@
+{
+    "TODAY_DATE": "2025-10-15",
+    "SIGNATURE": "demo_agent",
+    "LOG_PATH": "data/agent_data_astock",
+    "IF_TRADE": false
+}

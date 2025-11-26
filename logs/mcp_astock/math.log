@@ -1,0 +1,100 @@
+
+
+╭────────────────────────────────────────────────────────────────────────────╮
+│                                                                            │
+│        _ __ ___  _____           __  __  _____________    ____    ____     │
+│       _ __ ___ .'____/___ ______/ /_/  |/  / ____/ __ \  |___ \  / __ \    │
+│      _ __ ___ / /_  / __ `/ ___/ __/ /|_/ / /   / /_/ /  ___/ / / / / /    │
+│     _ __ ___ / __/ / /_/ (__  ) /_/ /  / / /___/ ____/  /  __/_/ /_/ /     │
+│    _ __ ___ /_/    \____/____/\__/_/  /_/\____/_/      /_____(*)____/      │
+│                                                                            │
+│                                                                            │
+│                                FastMCP  2.0                                │
+│                                                                            │
+│                                                                            │
+│               🖥️  Server name:     Math                                     │
+│               📦 Transport:       Streamable-HTTP                          │
+│               🔗 Server URL:      http://127.0.0.1:8000/mcp                │
+│                                                                            │
+│               🏎️  FastMCP version: 2.12.5                                   │
+│               🤝 MCP SDK version: 1.16.0                                   │
+│                                                                            │
+│               📚 Docs:            https://gofastmcp.com                    │
+│               🚀 Deploy:          https://fastmcp.cloud                    │
+│                                                                            │
+╰────────────────────────────────────────────────────────────────────────────╯
+
+
+[11/26/25 18:28:45] INFO     Starting MCP server 'Math' with      server.py:1579
+                             transport 'streamable-http' on                     
+                             http://127.0.0.1:8000/mcp                          
+INFO:     Started server process [8857]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56074 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56086 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56088 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56102 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56112 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35186 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35194 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35206 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35208 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35218 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35166 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+INFO:     127.0.0.1:48698 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48704 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48714 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37034 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37036 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37050 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37064 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37076 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50074 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50076 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50084 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50094 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50100 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50116 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50120 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+INFO:     127.0.0.1:50130 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+INFO:     127.0.0.1:38902 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38916 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38926 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38940 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38954 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38966 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38970 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38972 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38988 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39002 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39006 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44990 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44998 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44992 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:45012 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45024 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41792 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41820 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41806 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41822 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41826 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42482 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42492 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:42502 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42506 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42508 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33078 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33090 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33084 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:33104 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33118 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56682 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56688 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56690 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56694 - "DELETE /mcp HTTP/1.1" 200 OK

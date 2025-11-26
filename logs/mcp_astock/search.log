@@ -1,0 +1,92 @@
+
+
+╭────────────────────────────────────────────────────────────────────────────╮
+│                                                                            │
+│        _ __ ___  _____           __  __  _____________    ____    ____     │
+│       _ __ ___ .'____/___ ______/ /_/  |/  / ____/ __ \  |___ \  / __ \    │
+│      _ __ ___ / /_  / __ `/ ___/ __/ /|_/ / /   / /_/ /  ___/ / / / / /    │
+│     _ __ ___ / __/ / /_/ (__  ) /_/ /  / / /___/ ____/  /  __/_/ /_/ /     │
+│    _ __ ___ /_/    \____/____/\__/_/  /_/\____/_/      /_____(*)____/      │
+│                                                                            │
+│                                                                            │
+│                                FastMCP  2.0                                │
+│                                                                            │
+│                                                                            │
+│               🖥️  Server name:     Search                                   │
+│               📦 Transport:       Streamable-HTTP                          │
+│               🔗 Server URL:      http://127.0.0.1:8004/mcp                │
+│                                                                            │
+│               🏎️  FastMCP version: 2.12.5                                   │
+│               🤝 MCP SDK version: 1.16.0                                   │
+│                                                                            │
+│               📚 Docs:            https://gofastmcp.com                    │
+│               🚀 Deploy:          https://fastmcp.cloud                    │
+│                                                                            │
+╰────────────────────────────────────────────────────────────────────────────╯
+
+
+[11/26/25 18:28:48] INFO     Starting MCP server 'Search' with    server.py:1579
+                             transport 'streamable-http' on                     
+                             http://127.0.0.1:8004/mcp                          
+INFO:     Started server process [8874]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8004 (Press CTRL+C to quit)
+Running Alpha Vantage News Tool as search tool
+INFO:     127.0.0.1:37456 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37470 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37472 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37480 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37488 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56698 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56708 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56718 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56728 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56740 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56744 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55780 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55792 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55798 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55808 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43432 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43440 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43446 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43454 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43468 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43122 - "GET /mcp/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43130 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43142 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43136 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43148 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43150 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33634 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33640 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33650 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:33666 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33680 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53020 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53036 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:53040 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53048 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53062 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40100 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40116 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40118 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40134 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40144 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49232 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49234 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49238 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49240 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49250 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44116 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44140 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44130 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:44148 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44150 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55868 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55882 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55880 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55884 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "DELETE /mcp HTTP/1.1" 200 OK
